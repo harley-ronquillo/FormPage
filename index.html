@@ -21,11 +21,11 @@
         </header>
     
         <div class="form-box">
-            <form name="ACE Form" method="post" action="https://script.google.com/macros/s/AKfycbyvVgRJCyZmbkVqRCyClzBdU73mER1WvwBQjkTFYih6rS-WEoMD64n98j6c9VpsYnWY/exec" onsubmit="return aceForm()">
+            <form name="ACE Form" method="post" action="https://script.google.com/macros/s/AKfycbyvVgRJCyZmbkVqRCyClzBdU73mER1WvwBQjkTFYih6rS-WEoMD64n98j6c9VpsYnWY/exec">
                 <div class="semester">
                     <p>I hereby apply for a change in my enrollment this:</p><br>
                     <label for="semesterSelect">Semester:</label>
-                    <select id="semesterSelect" name="semesterSelect" onchange="toggleSemesterSelect()">
+                    <select id="semesterSelect" name="semesterSelect">
                         <option value="first">First Semester</option>
                         <option value="second">Second Semester</option>
                         <option value="summer">Summer Semester</option>
@@ -63,25 +63,25 @@
                 <div class="fromYrSection input-container">
                     <label for="fromYrSection">From Year and Section</label>
                     <div class="input-field">
-                        <input type="text" name="fromYrSection" placeholder="Year and Section" required>
+                        <input type="text" name="fromYrSection" placeholder="Year and Section" >
                     </div>
                     <label for="fromCode">Code</label>
                     <div class="input-field">
-                        <input type="text" name="fromCode" placeholder="Code" required>
+                        <input type="text" name="fromCode" placeholder="Code" >
                     </div>
                 </div>
     
                 <div class="fromCourseTitleChange coursetitle">
                     <label for="fromCourseTitleChange">Course Title:</label>
                     <div class="input-field">
-                        <input type="text" name="fromCourseTitleChange" placeholder="Course Title:" required><br><br>
+                        <input type="text" name="fromCourseTitleChange" placeholder="Course Title:" ><br><br>
                     </div>
                 </div>
     
                 <div class="fromUnit unit">
                     <label for="fromUnit">Unit:</label>
                     <div class="input-field">
-                        <input type="text" name="fromUnit" placeholder="Unit" required><br><br>
+                        <input type="text" name="fromUnit" placeholder="Unit" ><br><br>
                     </div>
                 </div>
     
@@ -89,25 +89,25 @@
                 <div class="toYrSection input-container">
                     <label for="ToYrSection">To Year and Section</label>
                     <div class="input-field">
-                        <input type="text" name="ToYrSection" placeholder="Year and Section" required>
+                        <input type="text" name="ToYrSection" placeholder="Year and Section">
                     </div>
                     <label for="toCode">Code</label>
                     <div class="input-field">
-                        <input type="text" name="toCode" placeholder="Code" required>
+                        <input type="text" name="toCode" placeholder="Code" >
                     </div>
                 </div>
     
                 <div class="toCourseTitleChange">
                     <label for="toCourseTitleChange">Course Title:</label>
                     <div class="input-field">
-                        <input type="text" name="toCourseTitleChange" placeholder="Course Title:" required><br><br>
+                        <input type="text" name="toCourseTitleChange" placeholder="Course Title:" ><br><br>
                     </div>
                 </div>
            
                 <div class="toUnit">
                     <label for="toUnit">Unit:</label>
                     <div class="input-field">
-                        <input type="text" name="toUnit" placeholder="Unit" required><br><br>
+                        <input type="text" name="toUnit" placeholder="Unit" ><br><br>
                     </div>
                 </div>
             </div>
@@ -115,40 +115,40 @@
                 <div class="input-container">
                     <label for="YrSection">Year and Section</label>
                     <div class="input-field">
-                        <input type="text" name="YrSection" placeholder="Year and Section" required>
+                        <input type="text" name="YrSection" placeholder="Year and Section" >
                     </div>
                     <label for="code">Code</label>
                     <div class="input-field">
-                        <input type="text" name="code" placeholder="Code" required>
+                        <input type="text" name="code" placeholder="Code" >
                     </div>
                 </div>
     
                 <div class="coursetitle">
                     <label for="courseTitle">Course Title:</label>
                     <div class="input-field">
-                        <input type="text" name="courseTitleOther" placeholder="Course Title:" required><br><br>
+                        <input type="text" name="courseTitleOther" placeholder="Course Title:" ><br><br>
                     </div>
                 </div>
     
                 <div class="unit">
                     <label for="unit">Unit:</label>
                     <div class="input-field">
-                        <input type="text" name="unit" placeholder="Unit" required><br><br>
+                        <input type="text" name="unit" placeholder="Unit" ><br><br>
                     </div>
                 </div>
             </div>
             <div class="input-container">
                 <label for="NoUnits">No. of Original Units</label>
                 <div class="input-field">
-                    <input type="number" id="NoUnits" name="NoUnits" min="1" max="99" required>
+                    <input type="number" id="NoUnits" name="NoUnits" min="1" max="99" >
                 </div>
                 <label for="unitsadded">No. of Units Added</label>
                 <div class="input-field">
-                    <input type="number" id="unitsadded" name="unitsadded" min="1" max="99" required>
+                    <input type="number" id="unitsadded" name="unitsadded" min="1" max="99" >
                 </div>
                 <label for="totalunits">Total No. of Units Enrolled</label>
                 <div class="input-field">
-                    <input type="number" id="totalunits" name="totalunits" min="1" max="99"  required>
+                    <input type="number" id="totalunits" name="totalunits" min="1" max="99"  >
                 </div>
             </div>
             </div>
